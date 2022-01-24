@@ -1,0 +1,30 @@
+<View style={styles.CameraPreview}>
+    <Text style={styles.name}>Alex &hearts;</Text>
+    <Text style={styles.phonenumber}>ringing +216 53236152</Text>
+    <Text>Incoming Call</Text>
+    </View>
+
+    <View style={styles.messageboxing}>
+    <View style={styles.message}>
+      <Feather name="message-circle"  size={30} color={'white'}/>
+      <Text>Message</Text>
+      </View>
+      <View style={styles.remindme}>
+      <MaterialIcon name="alarm"  size={30} color={'white'}/>
+      <Text>RemindMe</Text>
+      </View>
+    </View>
+
+    <View style={styles.bottomBox}>
+      <Pressable onPress={onDecline}>
+      <View style={styles.buttonCross}>
+      <Feather name="x" size={40} color={'white'} />
+      </View>
+      </Pressable>
+     
+     <Pressable onPress={onAccept}>
+      <View style={styles.buttonCheck}>
+      <MaterialIcon name="check" size={40} color={'white'}/>
+      </View>
+      </Pressable>
+</View>

@@ -1,0 +1,17 @@
+{
+  "name": "VideoCall",
+  "displayName": "VideoCall",
+  "orientation": "portrait",
+  "icon": "./assets/logo192.png",
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/logo192.png"
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
